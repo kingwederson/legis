@@ -6,7 +6,7 @@ div.folha {
     border: 1px solid black;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-family: sans-serif;
     text-align: center;
     text-transform: uppercase;
@@ -27,4 +27,11 @@ div.legis:hover{
 }
 div.revogado{
     text-decoration: line-through;
+}
+p.datacao{
+    text-align: right;;
+}
+p.assinatura{
+    font-weight: bold;
+    text-align: center;
 }
