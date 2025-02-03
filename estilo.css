@@ -21,6 +21,7 @@ ementa {
 div.legis{
     margin-left: 10mm;
     padding:7px 0px;
+    /*display: none;*/
 }
 div.legis:hover{
     background-color: #00f2;
@@ -38,4 +39,18 @@ p.assinatura{
 a:link, a:visited {
     color: blue;
     text-decoration: inherit;
+}
+table{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+td{
+    text-align: center;
+    border-top: 1px dotted black;
 }
