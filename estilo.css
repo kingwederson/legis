@@ -23,7 +23,7 @@ div.legis{
     padding:7px 0px;
 }
 div.legis:hover{
-    background-color: #0082;
+    background-color: #00f2;
 }
 div.revogado{
     text-decoration: line-through;
@@ -34,4 +34,8 @@ p.datacao{
 p.assinatura{
     font-weight: bold;
     text-align: center;
+}
+a:link, a:visited {
+    color: blue;
+    text-decoration: inherit;
 }
