@@ -1,8 +1,8 @@
 div.folha {
-    max-width: 297mm;
+    max-width: 1000px;
     text-align: justify;
     margin: auto;
-    padding:7mm;
+    padding: 25px;
     border: 1px solid black;
 }
 
@@ -24,7 +24,7 @@ div.legis{
     /*display: none;*/
 }
 div.legis:hover{
-    background-color: #00f2;
+    background-color: #0f02;
 }
 div.revogado{
     text-decoration: line-through;
