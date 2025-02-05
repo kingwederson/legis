@@ -4,6 +4,7 @@ div.folha {
     margin: auto;
     padding: 25px;
     border: 1px solid black;
+    font-size: 15px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -21,7 +22,7 @@ ementa {
 div.legis{
     margin-left: 10mm;
     padding:7px 0px;
-    /*display: none;*/
+    display: block;
 }
 div.legis:hover{
     background-color: #0f02;
@@ -58,4 +59,7 @@ td{
 }
 em.vermelha{
     color: red;
+}
+span.posicao{
+    float: right;
 }
