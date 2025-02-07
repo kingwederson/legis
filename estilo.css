@@ -63,3 +63,12 @@ em.vermelha{
 span.posicao{
     float: right;
 }
+ul ul ul ul li{
+    list-style-type: none;
+}
+ul ul ul ul li::before {
+    content: "→";  /* Aqui você pode colocar o símbolo ou até um emoji */
+    margin-right: 10px;  /* Espaçamento entre o símbolo e o conteúdo */
+    color: red;  /* Cor do símbolo */
+    font-size: 20px;  /* Tamanho do símbolo */
+}
